@@ -16,6 +16,7 @@ class _AbcScreenState extends State<AbcScreen> {
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
+    // ignore: unused_local_variable
     int indexs = 0;
     List<AbcDetails> item = [
       AbcDetails(

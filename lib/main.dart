@@ -13,13 +13,12 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
-  MyApp({super.key});
+  const MyApp({super.key});
 
-  late Mode providerMode; //Provider
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    providerMode = Provider.of(context);
+    final providerMode = Provider.of<Mode>(context);
     return MaterialApp(
       theme: providerMode.mode,
       darkTheme: ThemeApp.girlTheme,

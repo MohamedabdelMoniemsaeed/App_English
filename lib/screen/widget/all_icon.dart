@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tuko/screen/widgets_details/Details.dart';
+// import 'package:tuko/screen/widgets_details/Details.dart';
 import 'package:tuko/screen/widgets_details/family_Details.dart';
 
 // ignore: must_be_immutable
@@ -9,7 +9,7 @@ class FamilyIcon extends StatefulWidget {
   final String sound;
   final String nameArbic;
   // Function() onTap;
-  FamilyIcon({
+  const FamilyIcon({
     super.key,
     required this.images,
     required this.nameEnglish,

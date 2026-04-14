@@ -19,6 +19,7 @@ class _NumbersScreenState extends State<NumbersScreen> {
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
 
+    // ignore: unused_local_variable
     int indexs = 0;
     final List<NumberDetails> item = [
       NumberDetails(
