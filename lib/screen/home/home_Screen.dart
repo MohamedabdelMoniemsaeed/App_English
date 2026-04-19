@@ -6,6 +6,7 @@ import 'package:tuko/screen/family/family_screen.dart';
 import 'package:tuko/screen/numbers/numbers_Screen.dart';
 import 'package:tuko/screen/settings/settings.dart';
 import 'package:tuko/screen/widget/home_icon.dart';
+import 'package:tuko/screen/zoo/zoo_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -26,7 +27,7 @@ class _HomeScreenState extends State<HomeScreen> {
           Navigator.push(
             context,
             MaterialPageRoute(
-              builder: (context) => NumbersScreen(),
+              builder: (context) => const NumbersScreen(),
             ),
           );
         },
@@ -38,6 +39,15 @@ class _HomeScreenState extends State<HomeScreen> {
         onTap: () {
           Navigator.push(context,
               MaterialPageRoute(builder: (context) => const FamilyScreen()));
+        },
+      ),
+      TapRow(
+        name: 'Zoo',
+        // color: Colors.white54,
+        image: 'assets/images/zoohome.jpg',
+        onTap: () {
+          Navigator.push(context,
+              MaterialPageRoute(builder: (context) => const ZooScreen()));
         },
       ),
       TapRow(
@@ -73,8 +83,8 @@ class _HomeScreenState extends State<HomeScreen> {
             const SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2),
       ),
       drawer: Drawer(
-        child: Settings(),
         backgroundColor: Theme.of(context).primaryColor,
+        child: const Settings(),
       ),
     );
   }

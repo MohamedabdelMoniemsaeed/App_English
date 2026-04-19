@@ -1,4 +1,4 @@
-abstract class SoundNumber {
+abstract class SoundZoo {
   static String one = 'sounds/numbers/number_one_sound.mp3';
   static String two = 'sounds/numbers/number_two_sound.mp3';
   static String three = 'sounds/numbers/number_three_sound.mp3';

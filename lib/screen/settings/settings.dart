@@ -1,10 +1,11 @@
+
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:tuko/theme/porvider.dart';
 import 'package:tuko/theme/theme.dart';
 
 class Settings extends StatefulWidget {
-  Settings({super.key});
+  const Settings({super.key});
   // Color? color = Colors.blue;
   @override
   State<Settings> createState() => _SettingsState();

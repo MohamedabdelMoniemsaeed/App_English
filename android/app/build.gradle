@@ -30,12 +30,14 @@ android {
 
 
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        // تحديث من 1.8 إلى 17 أو 11 لضمان التوافق مع Gradle 8
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
     }
 
     kotlinOptions {
-        jvmTarget = '1.8'
+        // تحديث من 1.8 إلى 17
+        jvmTarget = '17'
     }
 
     sourceSets {

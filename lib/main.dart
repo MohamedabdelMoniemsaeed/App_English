@@ -8,7 +8,7 @@ void main() {
   runApp(ChangeNotifierProvider(
     //Provider
     create: (context) => Mode(), //Provider
-    child: MyApp(),
+    child: const MyApp(),
   ));
 }
 

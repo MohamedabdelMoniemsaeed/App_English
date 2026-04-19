@@ -8,6 +8,6 @@ abstract class DataColors {
   static String red = 'Red';
   static String white = 'White';
   static String yellow = 'Yellow';
-    static String orange = 'Orange';
+  static String orange = 'Orange';
 
 }
