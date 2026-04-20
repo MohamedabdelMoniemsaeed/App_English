@@ -1,11 +1,11 @@
 // ignore: file_names
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
-import 'package:tuko/models/zoo/data_Zoo.dart';
-import 'package:tuko/screen/widgets_details/zoo_Details.dart';
+import 'package:tuko/models/zoo/data_zoo.dart';
+import 'package:tuko/screen/widgets_details/zoo_details.dart';
 
-import '../../models/zoo/image_Zoo.dart' show ImageZoo;
-import '../../models/zoo/sound_Zoo.dart';
+import '../../models/zoo/image_zoo.dart' show ImageZoo;
+import '../../models/zoo/sound_zoo.dart';
 
 class ZooScreen extends StatefulWidget {
   const ZooScreen({super.key});
@@ -23,53 +23,18 @@ class _ZooScreenState extends State<ZooScreen> {
     // ignore: unused_local_variable
     int indexs = 0;
     final List<ZooDetails> item = [
-      ZooDetails(
-        nameEnglish: DataZoo.gorilla,
-        passimage: ImageZoo.gorilla,
-        nameArbic: DataZoo.gorillaArabic,
-        sounds: SoundZoo.one,
-      ),
-      ZooDetails(
-        nameEnglish: DataZoo.hippopotamus,
-        passimage: ImageZoo.hippopotamus,
-        nameArbic: DataZoo.hippopotamusArabic,
-        sounds: SoundZoo.two,
-      ),
-      ZooDetails(
-        nameEnglish: DataZoo.hyena,
-        passimage: ImageZoo.hyena,
-        nameArbic: DataZoo.hyenaArabic,
-        sounds: SoundZoo.three,
-      ),
-      ZooDetails(
-        nameEnglish: DataZoo.lion,
-        passimage: ImageZoo.lion,
-        nameArbic: DataZoo.lionArabic,
-        sounds: SoundZoo.four,
-      ),
-      ZooDetails(
-        nameEnglish: DataZoo.monkey,
-        passimage: ImageZoo.monkey,
-        nameArbic: DataZoo.monkeyArabic,
-        sounds: SoundZoo.five,
-      ),
-      ZooDetails(
-        nameEnglish: DataZoo.rhinoceros,
-        passimage: ImageZoo.rhinoceros,
-        nameArbic: DataZoo.rhinocerosArabic,
-        sounds: SoundZoo.six,
-      ),
+      
       ZooDetails(
         nameEnglish: DataZoo.tiger,
         passimage: ImageZoo.tiger,
         nameArbic: DataZoo.tigerArabic,
-        sounds: SoundZoo.seven,
+        sounds: SoundZoo.tiger,
       ),
       ZooDetails(
         nameEnglish: DataZoo.elephant,
         passimage: ImageZoo.elephant,
         nameArbic: DataZoo.elephantArabic,
-        sounds: SoundZoo.eight,
+        sounds: SoundZoo.elephant,
       ),
      
     ];

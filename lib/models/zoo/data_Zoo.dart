@@ -1,21 +1,26 @@
 abstract class DataZoo {
-  static String gorilla = 'Gorilla';
-  static String hippopotamus = 'Hippopotamus';
-  static String hyena = 'Hyena';
-  static String lion = 'Lion';
-  static String monkey = 'Monkey';
-  static String rhinoceros = 'Rhinoceros';
+  static String camel = 'Camel';
+  static String canary = 'Canary';
+  static String cat = 'Cat';
+  static String chick = 'Chick';
+  static String cow = 'Cow';
+  static String horse = 'Horse';
   static String tiger = 'Tiger';
-  static String zebra = 'Zebra';
+  static String peacock = 'Peacock';
   static String elephant = 'Elephant';
+    static String penguin = 'Penguin';
+  static String rooster = 'Rooster';
 
-  static String gorillaArabic = 'غوريلا';
-  static String hippopotamusArabic = 'النمر';
-  static String hyenaArabic = 'الفيل';
-  static String lionArabic = 'أسد';
-  static String monkeyArabic = 'قرد';
-  static String rhinocerosArabic = 'وحيد القرن';
-  static String tigerArabic = 'نمر';
-  static String zebraArabic = 'احمار وحشي';
+
+  static String camelArabic = 'جمل';
+  static String canaryArabic = 'كناري';
+  static String catArabic = 'قطة';
+  static String chickArabic = 'كتكوت';
+  static String cowArabic = 'بقرة';
+  static String horseArabic = 'حصان';
+  static String tigerArabic = 'النمر';
+  static String peacockArabic = 'الطاووس';
   static String elephantArabic = 'الفيل';
+   static String penguinArabic = 'البطريق';
+  static String roosterArabic = 'ديك';
 }

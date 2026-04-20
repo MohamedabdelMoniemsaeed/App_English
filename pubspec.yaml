@@ -75,8 +75,9 @@ flutter:
     - assets/sounds/family_members/
     - assets/sounds/numbers/
     - assets/sounds/abc/
+    - assets/sounds/zoo/
   # An image asset can refer to one or more resolution-specific "variants", see
-  # https://flutter.dev/assets-and-images/#resolution-aware
+  # https://flutter.dev/Aassets-and-images/#resolution-aware
 
   # For details regarding adding assets from package dependencies, see
   # https://flutter.dev/assets-and-images/#from-packages

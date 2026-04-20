@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 // import 'package:tuko/screen/widgets_details/Details.dart';
-import 'package:tuko/screen/widgets_details/family_Details.dart';
+import 'package:tuko/screen/widgets_details/family_details.dart';
 
 // ignore: must_be_immutable
 class FamilyIcon extends StatefulWidget {

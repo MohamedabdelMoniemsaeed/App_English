@@ -1,9 +1,9 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
-import 'package:tuko/models/abc/data_Abc.dart';
-import 'package:tuko/models/abc/image_Abc.dart';
-import 'package:tuko/models/abc/sound_Abc.dart';
-import 'package:tuko/screen/widgets_details/abc_Details.dart';
+import 'package:tuko/models/abc/data_abc.dart';
+import 'package:tuko/models/abc/image_abc.dart';
+import 'package:tuko/models/abc/sound_abc.dart';
+import 'package:tuko/screen/widgets_details/abc_details.dart';
 
 class AbcScreen extends StatefulWidget {
   const AbcScreen({super.key});

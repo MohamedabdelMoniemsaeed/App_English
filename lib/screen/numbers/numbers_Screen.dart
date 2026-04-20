@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:tuko/models/numbers/data_number.dart';
 import 'package:tuko/models/numbers/image_number.dart';
 import 'package:tuko/models/numbers/sound_number.dart';
-import 'package:tuko/screen/widgets_details/number_Details.dart';
+import 'package:tuko/screen/widgets_details/number_details.dart';
 
 class NumbersScreen extends StatefulWidget {
   const NumbersScreen({super.key});
