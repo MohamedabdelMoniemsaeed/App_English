@@ -23,7 +23,60 @@ class _ZooScreenState extends State<ZooScreen> {
     // ignore: unused_local_variable
     int indexs = 0;
     final List<ZooDetails> item = [
-      
+      ZooDetails(
+        nameEnglish: DataZoo.rooster,
+        passimage: ImageZoo.rooster,
+        nameArbic: DataZoo.roosterArabic,
+        sounds: SoundZoo.rooster,
+      ),
+      ZooDetails(
+        nameEnglish: DataZoo.penguin,
+        passimage: ImageZoo.penguin,
+        nameArbic: DataZoo.penguinArabic,
+        sounds: SoundZoo.penguin,
+      ),
+      ZooDetails(
+        nameEnglish: DataZoo.peacock,
+        passimage: ImageZoo.peacock,
+        nameArbic: DataZoo.peacockArabic,
+        sounds: SoundZoo.peacock,
+      ),
+      ZooDetails(
+        nameEnglish: DataZoo.horse,
+        passimage: ImageZoo.horse,
+        nameArbic: DataZoo.horseArabic,
+        sounds: SoundZoo.horse,
+      ),
+      ZooDetails(
+        nameEnglish: DataZoo.cow,
+        passimage: ImageZoo.cow,
+        nameArbic: DataZoo.cowArabic,
+        sounds: SoundZoo.cow,
+      ),
+      ZooDetails(
+        nameEnglish: DataZoo.chick,
+        passimage: ImageZoo.chick,
+        nameArbic: DataZoo.chickArabic,
+        sounds: SoundZoo.chick,
+      ),
+      ZooDetails(
+        nameEnglish: DataZoo.cat,
+        passimage: ImageZoo.cat,
+        nameArbic: DataZoo.catArabic,
+        sounds: SoundZoo.cat,
+      ),
+      ZooDetails(
+        nameEnglish: DataZoo.canary,
+        passimage: ImageZoo.canary,
+        nameArbic: DataZoo.canaryArabic,
+        sounds: SoundZoo.canary,
+      ),
+      ZooDetails(
+        nameEnglish: DataZoo.camel,
+        passimage: ImageZoo.camel,
+        nameArbic: DataZoo.camelArabic,
+        sounds: SoundZoo.camel,
+      ),
       ZooDetails(
         nameEnglish: DataZoo.tiger,
         passimage: ImageZoo.tiger,

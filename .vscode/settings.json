@@ -1,3 +1,8 @@
 {
-    "C_Cpp.errorSquiggles": "enabled"
+    "C_Cpp.errorSquiggles": "enabled",
+    "json.schemaDownload.trustedDomains": {
+        "\"java.jdt.ls.java.home\": \"C:\\\\Program Files\\\\Android\\\\Android Studio\\\\jbr\"": true
+    },
+    "emulator.emulatorPath": "C:\\Users\\mohamed-abdelmoniem\\AppData\\Local\\Android\\Sdk\\emulator",
+    "emulator.emulatorPathWindows": "C:\\Users\\mohamed-abdelmoniem\\AppData\\Local\\Android\\Sdk\\emulator"
 }

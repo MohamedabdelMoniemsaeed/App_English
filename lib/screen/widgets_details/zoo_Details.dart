@@ -51,12 +51,12 @@ class ZooDetails extends StatelessWidget {
                       horizontal: 20,
                     ),
                     child: Text(
-                      textAlign: TextAlign.right,
+                      textAlign: TextAlign.center,
                       nameArbic,
                       style: const TextStyle(
                           color: Colors.white,
-                          fontSize: 35,
-                          fontWeight: FontWeight.normal),
+                          fontSize: 45,
+                          fontWeight: FontWeight.bold,),
                     ),
                   ),
                   Container(

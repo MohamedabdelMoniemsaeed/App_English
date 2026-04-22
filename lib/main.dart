@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:tuko/screen/home/home_Screen.dart';
+import 'package:tuko/screen/home/home_screen.dart';
 import 'package:tuko/theme/porvider.dart';
 import 'package:tuko/theme/theme.dart';
 

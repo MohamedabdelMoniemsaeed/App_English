@@ -23,26 +23,29 @@ try {
 buildscript {
     ext.kotlin_version = '1.8.22'
     repositories {
+         google()
+        mavenCentral()
         // إضافة روابط HTTP صريحة لتخطي حجب شهادات SSL في مصر
         maven { url "http://dl.google.com/dl/android/maven2/"; allowInsecureProtocol = true }
         maven { url "http://repo.maven.apache.org/maven2/"; allowInsecureProtocol = true }
-        google()
-        mavenCentral()
+       
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:8.1.0'
+        
+        classpath 'com.android.tools.build:gradle:8.7.0'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
     }
 }
 
 allprojects {
     repositories {
+        google()
+        mavenCentral()
         // نكرر نفس الروابط هنا لضمان وصول المكتبات الفرعية (Plugins)
         maven { url "http://dl.google.com/dl/android/maven2/"; allowInsecureProtocol = true }
         maven { url "http://repo.maven.apache.org/maven2/"; allowInsecureProtocol = true }
-        google()
-        mavenCentral()
+        
     }
 }
 
